@@ -1,0 +1,150 @@
+.projects {
+    margin-bottom: 40px;
+    
+}
+
+.projects_box {
+    padding: 40px;
+    background-color: #CE8D66;
+    border-radius: 20px;
+}
+
+.projects_box h3{
+    font-size: 2.2rem;
+    color: #232939;
+}
+
+.projects_description {
+    font-size: 1.2rem;
+    color: #191a1d;
+}
+
+.project_content {
+    display: flex;
+    gap: 0.5%;
+    margin-top: 2.5%;
+    position: relative;
+    overflow: hidden;
+    justify-content: center; 
+    z-index: 1;   
+}
+
+.content {
+    display: flex;
+    gap: 3%;
+}
+
+div .card .card_image {
+    width: 160px;
+    border-radius: 10%;
+    padding: 3px;
+    background: #232939;   
+}
+
+div .card .card_image img{
+    height: 100%;
+    width: 100%;   
+    object-fit: cover;
+    border-radius: 10%;
+    border: 3px solid #EDE3E9;  
+}
+
+.card {
+    display: flex;
+    position: relative;
+    background: #232939;
+    border-radius: 20px;
+    width: 230px;
+}
+
+.card::before{
+    content: ""; 
+    position: absolute;
+    height: 50%;  
+    width: 100%;
+    background: #EDE3E9;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.card .card_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.card .card_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    color: #EDE3E9;
+}
+
+.card_description .title {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.card_description .description {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card .button button {
+    margin-top: 5px;
+    background: #EDE3E9;
+    outline: none;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 10px;
+}
+
+.button button:hover{
+    background: #6b9080;
+    cursor: pointer;
+}
+
+.viewmore:hover{
+    color: white;
+}
+
+.control {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 20px;
+    margin-top: -20px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.prev {
+    left: 5px;
+}
+
+.next {
+    right: 5px;
+}
+
+.prev:active, .next:active {
+transform: scale( .8)
+}
+
+.control_arrow {
+    display: flex;
+    align-items: center;
+}
+
+.arrows {
+    margin: 20%;
+    display: block;
+}

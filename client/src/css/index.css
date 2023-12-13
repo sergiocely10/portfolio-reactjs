@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #f0f0e8;
+  font-family: 'Segoe UI', 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrap{
+  width: 100%;
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 80px 30px 30px 30px;
+}
+
+@media (max-width: 800px) {
+  .menu_item, .intro_description, .intro_findme, .content{
+      margin-top: 4.5%;
+  }
+
+  input, textarea {
+      width: 100%;
+  }
+
+}

@@ -1,0 +1,29 @@
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro_box {
+    padding: 40px;
+    background-color: #232939;
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+.intro_box h3 {
+    font-size: 3rem;
+}
+
+.intro_description {
+    font-size: 1.3rem;
+    margin-top: 1.5%;
+}
+
+.intro_findme {
+    font-size: 1.2rem;
+    margin-top: 2.5%;
+}
+
+.intro_findme a {
+    text-decoration: none;
+    color: #6b9080;
+}
